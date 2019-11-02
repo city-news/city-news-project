@@ -37,6 +37,15 @@ main .news-main img {
   text-align: center;
 }
 
+.news-list {
+  margin-top: 50px;
+}
+
+.text-news-list{
+  margin-top: 20px;
+  color: #5b5b5b;
+}
+
 footer {
   padding: 5px;
   background-color: #343a40;
