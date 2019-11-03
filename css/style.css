@@ -16,6 +16,10 @@
   }
 }
 
+.carousel-inner {
+  margin-bottom: 40px;
+}
+
 .collapse {
   margin: 5px;
 }
