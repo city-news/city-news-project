@@ -1,75 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>City News</title>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
     <header>
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="index.html">Home</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                    
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        
-                        <li class="nav-item">
-                          <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
-                        
-                        <li class="nav-item">
-                                <a class="nav-link" href="news.html">News</a>
-                              </li>
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+          <img class="img-logo" src="assets/city-news-logo.png" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li
+              class="nav-item active"
+              style="font-size: 20px; margin-right: 20px;"
+            >
+              <a class="nav-link" href="index.html"
+                >Home<span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item" style="font-size: 20px; margin-right: 20px;">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
 
-                        <li class="nav-item">
-                          <a class="nav-link" href="about.html">About</a>
-                        </li>
+            <li class="nav-item" style="font-size: 20px; margin-right: 20px;">
+              <a class="nav-link" href="news.html">News</a>
+            </li>
 
-                    </ul>
-                </div>
-        </nav>
+            <li class="nav-item" style="font-size: 20px;">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
 
     <div class="banner-img">
-        <img src="assets/banner.jpg" alt="banner-img" class="img-fluid">
+      <img src="assets/banner.jpg" alt="banner-img" class="img-fluid" />
     </div>
 
     <main>
-        <div class="news-main text-center">
-            <img src="assets/news1.jpg" alt="news1" class="img-fluid">
-                <div class="container">
-                    <h3>Kota Bandung</h3>
-                    <p class="text-news">Bandung (/ˈbɑːndʊŋ/) is the capital of West Java province in Indonesia. 
-                        Based on 2015 census, it is Indonesia's fourth most populous city after Jakarta, 
-                        Surabaya, and Bekasi with over 2.5 million inhabitants. Greater Bandung is 
-                        the country's second-largest metropolitan with over 8.5 million inhabitants.
-                        [2] Located 768 metres (2,520 feet) above sea level, approximately 140 kilometres 
-                        (87 miles) southeast of Jakarta, Bandung has cooler year-round temperatures 
-                        than most other Indonesian cities. The city lies on a river basin surrounded 
-                        by volcanic mountains that provides a natural defence system, which was the 
-                        primary reason for the Dutch East Indies government's plan to move the capital 
-                        from Batavia (modern-day Jakarta) to Bandung.
-                    <p>
-                    <button type="button" class="btn btn-warning">Read More</button>
-                </div>
+      <div class="news-main text-center">
+        <img src="assets/news1.jpg" alt="news1" class="img-fluid" />
+        <div class="container">
+          <h3>Kota Bandung</h3>
+          <p class="text-news">
+            Bandung (/ˈbɑːndʊŋ/) is the capital of West Java province in
+            Indonesia. Based on 2015 census, it is Indonesia's fourth most
+            populous city after Jakarta, Surabaya, and Bekasi with over 2.5
+            million inhabitants. Greater Bandung is the country's second-largest
+            metropolitan with over 8.5 million inhabitants. [2] Located 768
+            metres (2,520 feet) above sea level, approximately 140 kilometres
+            (87 miles) southeast of Jakarta, Bandung has cooler year-round
+            temperatures than most other Indonesian cities. The city lies on a
+            river basin surrounded by volcanic mountains that provides a natural
+            defence system, which was the primary reason for the Dutch East
+            Indies government's plan to move the capital from Batavia
+            (modern-day Jakarta) to Bandung.
+          </p>
+
+          <p>
+            <button type="button" class="btn btn-warning">Read More</button>
+          </p>
         </div>
+      </div>
     </main>
-<br>
-<br>
+    <br />
+    <br />
     <footer class="fixed-bottom text-center">
-            <span class="footer-text">&copy;City News 2019</span>
+      <span class="footer-text">&copy;City News 2019</span>
     </footer>
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
