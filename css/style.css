@@ -29,6 +29,9 @@ body {
 .img1 {
   margin-bottom: 20px;
 }
+main {
+  margin-left: 10px;
+}
 
 main .news-main img {
   width: 70%;
@@ -42,14 +45,17 @@ main .news-main img {
 .text-news {
   text-align: center;
 }
+.paragraf {
+  width: 70%;
+}
 
 .news-list {
   margin-top: 50px;
 }
 
-.text-news-list{
+.text-news-list {
   margin-top: 20px;
-  color: #5b5b5b;
+  color: #977171;
 }
 
 footer {
@@ -59,4 +65,9 @@ footer {
 
 .footer-text {
   color: whitesmoke;
+}
+@media (max-width: 768px) {
+  .paragraf {
+    width: 100%;
+  }
 }
