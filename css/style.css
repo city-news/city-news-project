@@ -1,5 +1,19 @@
-body {
-  background-color: blanchedalmond;
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: rgb(161, 231, 133)!important;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  body {
+    background-color: rgb(1, 238, 255)!important;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  body {
+    background-color: blanchedalmond!important;
+  }
 }
 
 .collapse {
