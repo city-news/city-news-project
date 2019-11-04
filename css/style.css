@@ -1,12 +1,13 @@
 @media only screen and (max-width: 600px) {
   body {
-    background-color: rgb(161, 231, 133)!important;
+    background-color: rgb(61, 73, 56)!important;
+    color: blanchedalmond;
   }
 }
 
 @media only screen and (min-width: 600px) {
   body {
-    background-color: rgb(1, 238, 255)!important;
+    background-color: rgb(170, 191, 192)!important;
   }
 }
 
